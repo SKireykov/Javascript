@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use strict"
+        let a = 1, b = 1, c, d;
+        c = ++a; //c = 1 + 1
+        alert(c);
+
+        d = b++; // d присваевается значение b, после чего b + 1 
+        alert(d);
+
+        c = 2 + ++a; // c = 2 + (2 + 1),так как уже a = 2
+        alert(c);
+
+        d = 2 + b++; // d = 2 + 2,после чего b + 1
+        alert(d);
+
+        alert(a);
+        alert(b);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        "use strict"
+        function addition(a, b) {
+            return a + b;
+        }
+        function subtraction(a, b) {
+            return a - b;
+        }
+        function multiplication(a, b) {
+            return a * b;
+        }
+        function division(a, b) {
+            return a / b;
+        }
+        function mathOperation(a, b, operation) {
+            switch (operation) {
+                case addition:
+                    addition(a, b);
+                    break;
+                case subtraction:
+                    subtraction(a, b);
+                    break;
+                case multiplication:
+                    multiplication(a, b);
+                    break;
+                case division:
+                    division(a, b);
+                    break;
+            }
+        }
+
+
+        mathOperation(5, 6, addition)
+        mathOperation(5, 6, subtraction)
+        mathOperation(5, 6, multiplication)
+        mathOperation(5, 6, division)
+    </script>
+</body>
+
+</html>
